@@ -1,9 +1,10 @@
-\documentclass[12pt]{article}
-
-%\documentclass[justified, nobib]{tufte-handout2}
-
-
+%\documentclass[12pt]{article}
 \usepackage{longtable}
+
+\documentclass[justified, nobib]{tufte-handout2}
+
+\usepackage[margin=1in]{geometry}
+
 \usepackage{natbib}           % call natbib
 \setcitestyle{authoryear}     % set citation style to authoryear
 \bibliographystyle{plainnat}  % use the plainnat instead of plain
@@ -213,7 +214,7 @@ the SCAP and the CAP was unused.
 
 In February 2009, the Treasury announced the Capital Assistance Program
 (CAP) in conjunction with the Supervisory Capital Assessment Program
-(SCAP).\footnote{To learn more about the SCAP and CAP, click here: \url{http://som.yale.edu/ypfs}} Their purpose was ``to restore confidence throughout the
+(SCAP).\footnote{To learn more about the SCAP and CAP visit: \url{http://som.yale.edu/ypfs}} Their purpose was ``to restore confidence throughout the
 financial system that the nation's largest banking institutions have a
 sufficient capital cushion against larger than expected future losses,
 should they occur due to a more severe economic environment, and to
@@ -677,58 +678,10 @@ during the Great Depression. Moreover, the availability of public funds
 via the CAP ``gave regulators the right incentives.''\citep{Bernanke}
 Without the CAP backstop, regulators may have been inclined to present
 over-optimistic assessments of the weakest banks. The SCAP's results ultimately proved valuable information for market participants and increased confidence in the banking system. As a result, ``BHCs responded with substantial actions to improve capital [positions].''\citep{Hirtle}
-%\section{Resources Cited}
-%
-%\begin{itemize}
-%\item
-%  \href{http://www.federalreserve.gov/newsevents/press/bcreg/bcreg20090225a1.pdf}{\emph{FAQs
-%  on Supervisory Capital Assessment Program}}. Board of Governors of the
-%  Federal Reserve System, February 25, 2009. \emph{Federal Reserve
-%  document outlining initial design details and purpose of the SCAP}
-%\item
-%  \href{http://www.federalreserve.gov/bankinforeg/bcreg20090424a1.pdf}{\emph{The
-%  Supervisory Capital Assessment Program: Design and Implementation}},
-%  Board of Governors of the Federal Reserve System, April 24, 2009.
-%  \emph{Federal Reserve document outlining design details of the SCAP}
-%\item
-%  \href{http://www.federalreserve.gov/newsevents/press/bcreg/bcreg20090507a1.pdfhttp:/www.federalreserve.gov/newsevents/press/bcreg/bcreg20090507a1.pdf?bcsi_scan_D92198957E035F0B=0\&bcsi_scan_filename=bcreg20090507a1.pdf}{\emph{The
-%  Supervisory Capital Assessment Program: Overview of Results}}, Board
-%  of Governors of the Federal Reserve System, May 7, 2009. \emph{Federal
-%  Reserve document that announced the results of the SCAP}
-%\item
-%  \href{http://www.treasury.gov/press-center/press-releases/Documents/tg40_captermsheet.pdf}{\emph{Term
-%  Sheet for Capital Assistance Program}}, U.S. Treasury. \emph{Treasury
-%  document discussing terms of investments made via the CAP}
-%\item
-%  \href{http://www.nytimes.com/2009/02/26/business/economy/26banks.html}{\emph{Government
-%  Offers Details of Bank Stress Tests}}, New York Times, February 25,
-%  2009. \emph{Article discussing immediate reception to stress tests'
-%  proposed methodology}
-%\item
-%  \href{http://www.wsj.com/articles/SB124182311010302297}{\emph{Banks
-%  Won Concessions on Tests}}, Wall Street Journal, May 9, 2009.
-%  \emph{Article discussing the implications for targeting tangible
-%  common equity compared to common equity Tier 1}
-%\item
-%  \href{http://www.treasury.gov/press-center/news/Documents/TARP\%20Two\%20Year\%20Retrospective_10\%2005\%2010_transmittal\%20letter.pdf}{\emph{Troubled
-%  Asset Relief Program: Two Year Retrospective}}, Office of Financial
-%  Stability. \emph{Office of Financial Stability report discussing the
-%  program and its outcomes in the context of the wider swath of TARP}
-%\item
-%  \href{https://www.treasury.gov/press-center/press-releases/Pages/tg139.aspx.}{\emph{Statement
-%  by Timothy F. Geithner U. S. Secretary of the Treasury before the
-%  Senate Banking Committee}}, May 20, 2009. \emph{Secretary Geithner
-%  discusses the initial impact and market response of the SCAP's
-%  results}
-%\item
-%  \emph{The Courage to Act}, Bernanke, 2015. \emph{Former Chairman
-%  Bernanke's memoir, which includes passages on policymakers'
-%  considerations when designing and implementing SCAP}
-%\end{itemize}
 
 \phantomsection
 
-\addcontentsline{toc}{section}{4. References}
+\addcontentsline{toc}{section}{References}
 
 \nocite{*}
 \bibliography{\jobname}
@@ -782,7 +735,7 @@ over-optimistic assessments of the weakest banks. The SCAP's results ultimately 
   Board (FASB), April 9, 2009. \emph{Guidance describing the suggested
   process to account for debt securities held in the AFS and HTM
   accounts and when a firm must recognize other than temporary
-  impairments.}\url{http://www.gasb.org/jsp/FASB/Document_C/DocumentPage\%3Fcid=1176154545419\%26acceptedDisclaimer=true}
+  impairments.}\url{http://www.gasb.org/jsp/FASB/Document_C/DocumentPage?cid=1176154545419&acceptedDisclaimer=true}
 \end{itemize}
 
 \subsection{Press Releases/Announcements}
@@ -883,37 +836,35 @@ The following is a list of the key design decisions that will likely have to be 
 
 \1 Which agency or agencies have the authority and expertise to conduct the stress test?
 \2 What is the basis of this authority?
-\2 Does the agency conducting the test collect the necessary information as part of its regular bank examination process, or will the agency require collection of more granular data for the test?
 \2 What particular elements/terms must be satisfied to fit within the authority?
 \2 After designing, have all required elements been satisfied?
-\1 What, if any, capital backstop should be available to firms which fail the stress test?
+\1 What, if any, capital backstop should be available to firms which undergo the stress test?
 \2 Is any additional authority required in order to provide a capital backstop?
 \2 How can the backstop be structured to compel firms to first raise private capital and use the public capital as a less preferred option?
 \2 How long should firms be allowed to seek private capital before turning to the public backstop?
-\2 SCAP: The Capital Assistance Program (CAP) was the public backstop for the SCAP tested firms. Firms were given 6 months to raise private capital.
+%\2 SCAP: The Capital Assistance Program (CAP) was the public backstop for the SCAP tested firms. Firms were given 6 months to raise private capital.
+\1 How should a public capital backstop be structured?
+\2 What sort of preferred security should the public capital be provided through? Should that security be automatically converted to common equity if not redeemed or converted?
+\2 Should economic conditions worsen, can the public capital convert into common equity (at a discount)?
+\2 What other constraints will firms using public capital face? (E.g. executive compensation caps, restrictions on common stock dividends, buybacks and cash acquisitions)
 \1 Which firms are included in the stress test?
-\2 How many firms can be credible tested given the testing agency's resources?
-\2 SCAP: BHCs with assets greater than \$100 billion, as reported in the 2008Q4 in the Federal Reserve’s Consolidated Financial Statements for Bank Holding Companies (FR Y-9C). As a result, the 19 largest BHCs, which together held two-thirds of assets and more than one-half of the loans in the U.S. banking system, participated in the SCAP on a mandatory basis.
+\2 How many firms can be credibly tested given the testing agency's resources?
+%\2 SCAP: BHCs with assets greater than \$100 billion, as reported in the 2008Q4 in the Federal Reserve’s Consolidated Financial Statements for Bank Holding Companies (FR Y-9C). As a result, the 19 largest BHCs, which together held two-thirds of assets and more than one-half of the loans in the U.S. banking system, participated in the SCAP on a mandatory basis.
 \1 How transparent should the test results be? What level of granularity for estimates should be publicly available?
 \1 How can the regulators ensure the test is viewed as credible?
 \2 What metric or measure should regulators target to assess capital adequacy?
+\3 What data on bank holdings and capital adequacy does the testing agency collect as part of its regular bank examination process? Is this data sufficiently granular for the test or will further data need to be collected?
 \3 Should the test focus on Tier 1 capital, Tier 1 Common capital, tangible common equity, a combination of these or something else?
 \4 For example, should preferred equity, goodwill and intangible assets be included in the equity component?
 \4 Should the denominator be based on risk-weighted assets, tangible assets or something else?
 \3 Over what time frame is the stress test examining capital adequacy?
-\3 Under what scenarios should regulators apply an other than temporary impairment charge to securities held in a firm's available-for-sale and held-to-maturity portfolios?
 \2 Should the stress test measure in-the-moment or measure ``in the stress''?
 \2 What economic scenarios are used to stress the firms?
 \3 How many economic scenarios are used to stress the firms?
 \3 How do these scenarios compare with contemporary private forecasts?
-\2 Does the existence or lack of a public capital backstop affect market views of the test's credibility? Without a capital backstop, markets may expect the test to be too optimistic, thereby diminishing the intended effect of the test.
-\2 SCAP: Regulators targeted Tier 1 Common Capital and Tier 1 Capital Ratios, examining adequacy through the end of 2010 (approximately 18 months after the results were released). The SCAP used two economic scenarios -- baseline and more adverse -- where the baseline generally matched private forecasts. Moreover the existence of the CAP gave regulators the correct incentives in the test, so that should the test show a firm inadequately capitalized, there was an established source of public capital.
-\1 How should a public capital backstop be structured?
-\2 What is the basis of this authority?
-\2 What sort of preferred security should the public capital be provided through? Should that security be automatically convert to common equity if not redeemed or converted?
-\2 Should economic conditions worsen, can the public capital convert into common equity (at a discount)?
-\2 What other constraints will firms using public capital face? (E.g. executive compensation caps, restrictions on common stock dividends, buybacks and cash acquisitions)
-\2 SCAP: The public backstop, via the CAP, allowed the Treasury to provide additional capital via convertible preferred securities with a 9\% dividend yield. After 7 years the security would automatically convert to common equity if not redeemed or converted before that date. The instrument was designed to give banks the incentive to replace the government-provided capital with private capital as quickly as possible.
+\2 Does the existence or lack of a public capital backstop affect market views of the test's credibility?
+%\2 SCAP: Regulators targeted Tier 1 Common Capital and Tier 1 Capital Ratios, examining adequacy through the end of 2010 (approximately 18 months after the results were released). The SCAP used two economic scenarios -- baseline and more adverse -- where the baseline generally matched private forecasts. Moreover the existence of the CAP gave regulators the correct incentives in the test, so that should the test show a firm inadequately capitalized, there was an established source of public capital.
+%\2 SCAP: The public backstop, via the CAP, allowed the Treasury to provide additional capital via convertible preferred securities with a 9\% dividend yield. After 7 years the security would automatically convert to common equity if not redeemed or converted before that date. The instrument was designed to give banks the incentive to replace the government-provided capital with private capital as quickly as possible.
 
 \end{outline}
 
@@ -921,13 +872,16 @@ The following is a list of the key design decisions that will likely have to be 
 
 \begin{enumerate}
 
-\item Develop the description of the program, including legal authority, purpose, included firms, a general timeline, et cetera and seek input from industry and other stakeholders.
-\item If data at a sufficiently granular level is not available from traditional examination processes, collect the relevant data from firms. After providing macroeconomic scenarios to firms, collect estimates for line item losses from each firm. The process of the agency independently producing its own loss estimates and reconciling these with each firms' estimates will likely be the most time intensive aspect of the stress test.
-\item If a capital backstop will be used, establish a description of the backstop with legal authority, firms eligible to receive the backstop, the mechanics of the capital injection, et cetera and seek input from industry and other stakeholders.
+\item Develop the description of the test, including legal authority, purpose, firm eligibility, a general timeline, et cetera and seek input from industry and other stakeholders.
+\item If a capital backstop will be used, establish a description of the backstop with legal authority, firms eligible to receive the backstop, the mechanics of the capital injection, et cetera and seek input from industry and other stakeholders. Produce term sheet for the program.\footnote{CAP Example Term Sheet: \newline \url{https://www.treasury.gov/press-center/press-releases/Documents/tg40_captermsheet.pdf}}
+\item Produce economic scenarios with which to stress capital adequacy and distribute it to the tested firms.\footnote{SCAP Scenarios Example: see Figure~\ref{figure3} or  \newline \url{http://www.federalreserve.gov/bankinforeg/bcreg20090424a1.pdf\#page=8}}
+\item If firm-level data at a sufficiently granular level is not available from the traditional bank examination processes, collect the relevant data from firms. 
 \item If necessary, seek approval for the program, funding et cetera.
-\item Draft detailed FAQs\footnote{SCAP FAQ Example:\url{http://www.federalreserve.gov/newsevents/press/bcreg/bcreg20090225a1.pdf}} and Design and Implementation factsheet.\footnote{SCAP Design and Implementation Example:\url{http://www.federalreserve.gov/bankinforeg/bcreg20090424a1.pdf}}
+\item Draft detailed FAQs\footnote{SCAP FAQ Example: \newline \url{http://www.federalreserve.gov/newsevents/press/bcreg/bcreg20090225a1.pdf}}, Design and Implementation factsheet,\footnote{SCAP Design and Implementation Example: \newline \url{http://www.federalreserve.gov/bankinforeg/bcreg20090424a1.pdf}} and template for published results.\footnote{SCAP Template Example: see Figure~\ref{figure2} or  \newline \url{http://www.federalreserve.gov/bankinforeg/bcreg20090507a1.pdf\#page=20}}
+\item Using the provided economic scenarios and bank portfolio data, both supervisors and firms individually produce capital adequacy estimates. 
+\item Compare supervisors' capital adequacy estimates with firms' own estimates and reconcile differences.
 \item If necessary, develop instructions for completing the documentation necessary to participate in the capital back stop.
-\item Publicly release stress test results.
+\item Publicly release stress test results.\footnote{SCAP Public Results Example: \newline \url{http://www.federalreserve.gov/bankinforeg/bcreg20090507a1.pdf}}
 
 \end{enumerate}
 
@@ -976,17 +930,17 @@ The following is a list of the key design decisions that will likely have to be 
 \item
   Discuss alternative ways the regulators could have provided
   transparency in the test.
-\item
-  How did regulators decide to allow firms with which would receive
-  Treasury capital from the CAP to convert the Treasury's preferred
-  shares to common equity at a ten percent discount to the firm's stock
-  price?
+%\item
+  %How did regulators decide to allow firms with which would receive
+  %Treasury capital from the CAP to convert the Treasury's preferred
+  %shares to common equity at a ten percent discount to the firm's stock
+  %price?
 \item
   To what extent did the firms challenge the SCAP's initial findings and
   did this have any impact on the finalized, published stress test
   results?
 \item
-  What designs of a capital injection program help strike the right
+  What elements of a capital injection program help strike the right
   balance between sufficiently protecting the taxpayer's interests and
   effectively restoring lending activity in the market?
 \end{enumerate}
