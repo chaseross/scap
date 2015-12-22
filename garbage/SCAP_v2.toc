@@ -1,0 +1,26 @@
+\contentsline {section}{\numberline {1}Overview}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Background}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Program Description}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Outcomes}{6}{subsection.1.3}
+\contentsline {section}{\numberline {2}Key Design Decisions}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}Supervisors published the design of the stress test and its results at a very detailed level.}{7}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}The Fed helped increase credibility of the test by considering two different macroeconomic scenarios, with the ``more adverse'' scenario projecting more severe loss estimates than many market analysts.}{11}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}The stress test was based on targets for the amount of Tier 1 capital firms should hold.}{11}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}The Fed applied ``other than temporary impairment'' charges to securities that a bank was likely to sell or be forced to sell.}{13}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Q1 2009 revenues were included in the stress test calculation.}{13}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}BHCs with capital shortfalls revealed by the SCAP would ultimately have access to U.S. Treasury funds if the firm was unable to raise private capital.}{14}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Regulators conducted the stress test on BHCs with more than \$100 billion in assets on a consolidated basis.}{14}{subsection.2.7}
+\contentsline {section}{\numberline {3}Evaluation}{15}{section.3}
+\contentsline {section}{4. References}{15}{section*.5}
+\contentsline {section}{\numberline {4}Appendix A - List of Resources}{16}{section.4}
+\contentsline {subsection}{\numberline {4.1}Summary of Program}{16}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Implementation Documents}{17}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Legal/Regulatory Guidance}{17}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Press Releases/Announcements}{18}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Media Stories}{18}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Key Academic Papers}{19}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Government Reports/Assessments}{19}{subsection.4.7}
+\contentsline {section}{\numberline {5}Appendix B - Road Map}{20}{section.5}
+\contentsline {subsection}{\numberline {5.1}Key Questions}{20}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Implementation Steps}{22}{subsection.5.2}
+\contentsline {section}{\numberline {6}Interview Questions}{23}{section.6}

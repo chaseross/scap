@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: SCAP_v2.aux
+The style file: plainnat.bst
+Database file #1: SCAP_v2.bib
+Warning--empty journal in NYTimes
+Warning--empty journal in CFR
+Warning--empty year in CFR
+Warning--empty year in CFR
+Warning--empty journal in WSJ
+Warning--empty journal in Design
+Warning--empty journal in FAQs
+Warning--empty journal in Results
+Warning--empty journal in OFS
+Warning--empty journal in Term
+You've used 10 entries,
+            2773 wiz_defined-function locations,
+            649 strings with 6468 characters,
+and the built_in function-call counts, 3425 in all, are:
+= -- 295
+> -- 151
+< -- 8
++ -- 57
+- -- 45
+* -- 226
+:= -- 560
+add.period$ -- 38
+call.type$ -- 10
+change.case$ -- 44
+chr.to.int$ -- 8
+cite$ -- 30
+duplicate$ -- 193
+empty$ -- 305
+format.name$ -- 57
+if$ -- 695
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 11
+newline$ -- 66
+num.names$ -- 40
+pop$ -- 111
+preamble$ -- 1
+purify$ -- 35
+quote$ -- 0
+skip$ -- 130
+stack$ -- 0
+substring$ -- 20
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 105
+warning$ -- 10
+while$ -- 30
+width$ -- 0
+write$ -- 135
+(There were 10 warnings)
